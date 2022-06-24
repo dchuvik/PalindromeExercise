@@ -10,7 +10,9 @@ namespace PalindromeExercise.Tests
         [InlineData("civic", true)]
         [InlineData("repaper", true)]
         [InlineData("David", false)]
-        [InlineData("TrueCoders", false)]
+        [InlineData("truecodersredoceurt", true)]
+        [InlineData("Was it a cat I saw", true)]
+        [InlineData("Kayak", true)]
 
 
         public void Test1(string word, bool expected)

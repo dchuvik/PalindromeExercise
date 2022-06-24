@@ -8,7 +8,7 @@ namespace PalindromeExercise
     {
         public bool IsAPalindrome(string word)
         {
-            return word.SequenceEqual(word.Reverse())==true;
+            return word.Replace(" ", "").ToLower().SequenceEqual(word.Replace(" ", "").ToLower().Reverse())==true;
         }
     }
 }
